@@ -1,3 +1,11 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Build Status](https://img.shields.io/badge/PINN-yes-green)
+![Build Status](https://img.shields.io/badge/FDM-yes-blue)
+![Contributions](https://img.shields.io/badge/contributions-welcome-gold)
+![GitHub issues](https://img.shields.io/github/issues/DennisWayo/PINN-FDM-FracEnergyBalance)
+![GitHub forks](https://img.shields.io/github/forks/DennisWayo/PINN-FDM-FracEnergyBalance)
+![GitHub stars](https://img.shields.io/github/stars/DennisWayo/PINN-FDM-FracEnergyBalance)
+
 
 ## Physics-Informed Neural Network (PINN) for Error-Corrected Finite Difference Energy Balance in 1D Hydraulic Fracture Propagation
 
