@@ -7,8 +7,6 @@ This repository contains the implementation of a **Physics-Informed Neural Netwo
 This work introduces a **1D PINN-FDM approach**, with future extensions to **2D and 3D cases**. The model integrates **energy balance equations** into the loss function, ensuring physical consistency.
 
 
----
-
 ### 🚀 Features
 - **Finite Difference Method (FDM):** Implements numerical approximations for energy balance.
 - **Physics-Informed Neural Network (PINN):** Integrates physical constraints into neural network training.
@@ -16,7 +14,6 @@ This work introduces a **1D PINN-FDM approach**, with future extensions to **2D 
 - **Computational Efficiency:** Reduces truncation errors while maintaining computational feasibility.
 - **Scalability:** The framework is designed for potential extensions to **2D and 3D fracture modeling**.
 
----
 
 ### 📊 Methodology
 1. **Synthetic Data Generation:** 
@@ -44,7 +41,6 @@ This work introduces a **1D PINN-FDM approach**, with future extensions to **2D 
    - Learning Rate: **\( \alpha_0 = 0.0003 e^{-0.9t} \)**
    - Convergence Tracking: **Animated training visualization**
   
----
 
 ### 📈 Results
 - **MSE Reduction:** \( 264064.79 \) (CD) → **\( 18.93 \) (PINN)**
@@ -53,9 +49,11 @@ This work introduces a **1D PINN-FDM approach**, with future extensions to **2D 
 
 ![pinn_emulation](https://github.com/user-attachments/assets/7e57081e-b747-4e18-a13e-0787b3b2f80e)
 
----
 
-## 🔧 Run and Train PINN-FDM
+### 🔧 Run and Train PINN-FDM
+### Funders
+### Citation
+### Contact
 
 
 
