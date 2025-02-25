@@ -52,6 +52,7 @@ This work introduces a **1D PINN-FDM approach**, with future extensions to **2D 
 
 ### 🔧 Run and Train PINN-FDM
 ### Funders
+We thank the support by the National Key R\&D Program of China (2023YFE0110900) and the National Natural Science Foundation of China (52074040).
 ### Citation
 ### Contact
 
