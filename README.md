@@ -9,13 +9,12 @@
 
 ## Physics-Informed Neural Network (PINN) for Error-Corrected Finite Difference Energy Balance in 1D Hydraulic Fracture Propagation
 
-### 📝 Overview
 This repository contains the implementation of a **Physics-Informed Neural Network (PINN)-Enhanced Finite Difference Method (FDM)** for modeling **energy balance in hydraulic fracture propagation**. The proposed framework corrects numerical errors in real-time while preserving computational efficiency.
 
 This work introduces a **1D PINN-FDM approach**, with future extensions to **2D and 3D cases**. The model integrates **energy balance equations** into the loss function, ensuring physical consistency.
 
 
-### 🚀 Features
+### Features
 - **Finite Difference Method (FDM):** Implements numerical approximations for energy balance.
 - **Physics-Informed Neural Network (PINN):** Integrates physical constraints into neural network training.
 - **Error Correction:** Learns numerical errors and enhances simulation accuracy.
@@ -23,7 +22,7 @@ This work introduces a **1D PINN-FDM approach**, with future extensions to **2D 
 - **Scalability:** The framework is designed for potential extensions to **2D and 3D fracture modeling**.
 
 
-### 📊 Methodology
+### Methodology
 1. **Synthetic Data Generation:** 
    - Fracture length: L $\in$ [0.1, 10] meters
    - Fracture width:  W $\in$ [0.01, 1] meters
