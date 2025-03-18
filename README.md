@@ -78,6 +78,10 @@ If you use this work, please cite:
 }
 ```
 
+### Funders
+- The National Key R\&D Program of China (2023YFE0110900)
+- National Natural Science Foundation of China (52074040)
+
 ### Future Work
 - Extension to **2D and 3D models**.
 - Adaptive PINN training for complex **geomechanical applications**.
