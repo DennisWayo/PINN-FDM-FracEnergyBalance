@@ -65,10 +65,27 @@ python code/1D_FracEnergy.ipynb
 ```
 For visualization and evaluation, use the **Google Colab platform**.
 
-### Citation
-If you use this work, please cite:
+### Dataset Information
+Although this dataset is synthetic, it has enabled remarkable predictive accuracy in our study, validating the effectiveness of the Physics-Informed Neural Networks (PINNs) combined with Finite Difference Methods (FDM). The generated data captures key energy balance properties relevant to hydraulic fracture propagation and serves as an important benchmark for testing future models. Researchers interested in physics-informed deep learning or computational fracture mechanics may find this dataset useful for further validation and comparative studies.
 
-```
+**Data Citation:**
+If you use this dataset, please cite:
+
+``` bibtex
+@misc{wayo2025pinn,
+  author       = {Dennis Wayo},
+  title        = {PINN-FDM-FracEnergyBalance v1.0},
+  year         = {2025},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.15043177},
+  url          = {https://doi.org/10.5281/zenodo.15043177}
+}
+````
+
+**Paper Citation**
+If you use this piece of work, please cite:
+
+```bibtex
 @article{your_paper_reference,
   title={Physics-Informed Neural Network (PINN) for Error-Corrected Finite Difference Energy Balance in 1D Hydraulic Fracture Propagation},
   author={xx},
