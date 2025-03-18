@@ -40,7 +40,7 @@ This work introduces a **1D PINN-FDM approach**, with future extensions to **2D 
    - **Regularization:** Dropout (10% per layer)
    - **Loss Function:** 
      
-   $\mathcal{L} = \mathcal{L}_{MSE} + \lambda_1 \mathcal{L}_{Physics} + \lambda_2 \mathcal{L}_{Weighted}$
+   \mathcal{L} = $\L_{MSE}$ + \lambda_1 \mathcal{L}_{Physics} + \lambda_2 \mathcal{L}_{Weighted}
      
 
 4. **Training Process:**
@@ -57,11 +57,34 @@ This work introduces a **1D PINN-FDM approach**, with future extensions to **2D 
 ![pinn_emulation](https://github.com/user-attachments/assets/7e57081e-b747-4e18-a13e-0787b3b2f80e)
 
 
-### 🔧 Run and Train PINN-FDM
-### Funders
-We thank the support by the National Key R\&D Program of China (2023YFE0110900) and the National Natural Science Foundation of China (52074040).
+### Running the Code
+To train the **1D models**, execute:
+
+```bash
+python code/1D_FracEnergy.ipynb
+```
+For visualization and evaluation, use the **Google Colab platform**.
+
 ### Citation
+If you use this work, please cite:
+
+```
+@article{your_paper_reference,
+  title={Physics-Informed Neural Network (PINN) for Error-Corrected Finite Difference Energy Balance in 1D Hydraulic Fracture Propagation},
+  author={xx},
+  journal={xx},
+  year={2025},
+  doi={xx}
+}
+```
+
+### Future Work
+- Extension to **2D and 3D models**.
+- Adaptive PINN training for complex **geomechanical applications**.
+
+### Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
 ### Contact
-
-
+For questions, reach out via email(iwayoden@gmail.com) or GitHub discussions.
 
