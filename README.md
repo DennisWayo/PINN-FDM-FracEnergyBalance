@@ -25,33 +25,33 @@ This work introduces a **1D PINN-FDM approach**, with future extensions to **2D 
 
 ### 📊 Methodology
 1. **Synthetic Data Generation:** 
-   - Fracture length: \( L \in [0.1, 10] \) meters
-   - Fracture width: \( W \in [0.01, 1] \) meters
-   - Pressure gradient: \( P \in [1, 50] \) MPa/m
-   - Fluid viscosity: \( $\mu$ \in [0.001, 0.1] \) Pa·s
+   - Fracture length: L $\in$ [0.1, 10] meters
+   - Fracture width:  W $\in$ [0.01, 1] meters
+   - Pressure gradient: P $\in$ [1, 50] MPa/m
+   - Fluid viscosity: $\mu$ $\in$ [0.001, 0.1] Pa·s
 
 2. **Finite Difference Modeling:**
    - Central Difference Approximation (CDA)
    - Stability Constraints (CFL Conditions)
 
 3. **PINN Model Architecture:**
-   - **Input:** \( (L, W, P, \mu) \)
+   - **Input:** (L, W, P, $\mu$)
    - **5 Hidden Layers:** 512 neurons each
    - **Activation:** Swish
    - **Regularization:** Dropout (10% per layer)
    - **Loss Function:** 
-     \[
-     \mathcal{L} = \mathcal{L}_{MSE} + \lambda_1 \mathcal{L}_{Physics} + \lambda_2 \mathcal{L}_{Weighted}
-     \]
+     
+   $\mathcal{L} = \mathcal{L}_{MSE} + \lambda_1 \mathcal{L}_{Physics} + \lambda_2 \mathcal{L}_{Weighted}$
+     
 
 4. **Training Process:**
    - Optimizer: **Adam**
-   - Learning Rate: **\( \alpha_0 = 0.0003 e^{-0.9t} \)**
+   - Learning Rate: **$\alpha_0 = 0.0003 e^{-0.9t}$**
    - Convergence Tracking: **Animated training visualization**
   
 
 ### 📈 Results
-- **MSE Reduction:** \( 264064.79 \) (CD) → **\( 18.93 \) (PINN)**
+- **MSE Reduction:** 264064.79 (CD) → **18.93 (PINN)**
 - **Generalization Error Reduction:** **90.21%**
 - **Improved Stability:** Reduced oscillations at fracture tips
 
