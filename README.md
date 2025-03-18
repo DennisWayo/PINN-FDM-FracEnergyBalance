@@ -5,6 +5,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/DennisWayo/PINN-FDM-FracEnergyBalance)
 ![GitHub forks](https://img.shields.io/github/forks/DennisWayo/PINN-FDM-FracEnergyBalance)
 ![GitHub stars](https://img.shields.io/github/stars/DennisWayo/PINN-FDM-FracEnergyBalance)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15043177.svg)](https://doi.org/10.5281/zenodo.15043177)
 
 
 ## Physics-Informed Neural Network (PINN) for Error-Corrected Finite Difference Energy Balance in 1D Hydraulic Fracture Propagation
@@ -72,13 +73,16 @@ Although this dataset is synthetic, it has enabled remarkable predictive accurac
 If you use this dataset, please cite:
 
 ``` bibtex
-@misc{wayo2025pinn,
-  author       = {Dennis Wayo, Lei Wang, Randy Hazlett},
-  title        = {PINN-FDM-FracEnergyBalance v1.0},
-  year         = {2025},
+@software{wayo_2025_15043363,
+  author       = {Wayo, Dennis Delali Kwesi and Wang, Lei andHazlett, Randy},
+  title        = {PINN-FDM-FracEnergyBalance: Synthetic Dataset and
+                   Code for Energy Balance in Hydraulic Fracturing},
+  month        = mar,
+  year         = 2025,
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.15043177},
-  url          = {https://doi.org/10.5281/zenodo.15043177}
+  version      = {v1.1},
+  doi          = {10.5281/zenodo.15043363},
+  url          = {https://doi.org/10.5281/zenodo.15043363},
 }
 ````
 
