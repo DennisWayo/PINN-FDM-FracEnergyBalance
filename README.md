@@ -73,7 +73,7 @@ If you use this dataset, please cite:
 
 ``` bibtex
 @misc{wayo2025pinn,
-  author       = {Dennis Wayo},
+  author       = {Dennis Wayo, Lei Wang, Randy Hazlett},
   title        = {PINN-FDM-FracEnergyBalance v1.0},
   year         = {2025},
   publisher    = {Zenodo},
