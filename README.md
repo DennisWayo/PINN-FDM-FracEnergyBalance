@@ -73,7 +73,7 @@ Although this dataset is synthetic, it has enabled remarkable predictive accurac
 If you use this dataset, please cite:
 
 ``` bibtex
-@software{wayo_2025_15043363,
+@software{wayo202515043363,
   author       = {Wayo, Dennis Delali Kwesi and Wang, Lei andHazlett, Randy},
   title        = {PINN-FDM-FracEnergyBalance: Synthetic Dataset and
                    Code for Energy Balance in Hydraulic Fracturing},
@@ -86,7 +86,7 @@ If you use this dataset, please cite:
 }
 ````
 
-**Paper Citation**
+**Paper Citation:**
 If you use this piece of work, please cite:
 
 ```bibtex
