@@ -40,7 +40,7 @@ This work introduces a **1D PINN-FDM approach**, with future extensions to **2D 
    - **Regularization:** Dropout (10% per layer)
    - **Loss Function:** 
      
-   L = $L_{MSE}$ + $lambda_1 L_{Physics}$ + $lambda_2 L_{Weighted}$
+   L = $L_{MSE}$ + $\lambda_1 L_{Physics}$ + $\lambda_2 L_{Weighted}$
      
 
 4. **Training Process:**
